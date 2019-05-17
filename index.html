@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="main-page">
+        
+        <section>
+            <header class="form-explanation">
+                <h1 id="title" class="title">Online Learning Journey</h1>
+                <p id="description" class="description">We'd like to know a little more about your journey on learning how to code with online resources.</p>
+            </header>
+    
+            
+            <form id="survey-form" class="survey-form" action="">
+                
+                <section class="form-section-main">
+                    <h2 class="title-section">About You</h2>
+                    <fieldset class="form-field">
+                        <label for="name" id="name-label">Name:</label>
+                        <div class="text-input-area">
+                            <input type="text" name="name" id="name">
+                        </div>
+                    </fieldset>
+    
+                    <fieldset class="form-field">
+                        <label for="email" id="email-label">Email:</label>
+                        <div class="text-input-area">
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </fieldset>
+    
+                    
+                    
+                    <div class="form-location">
+    
+                        <fieldset class="form-field form-city">
+                            <label for="city">City:</label>
+                            <div class="text-input-area">
+                                <input type="text" name="city">
+                            </div>
+                        </fieldset>
+                        
+                        <fieldset class="form-field  form-country">
+                            <label for="country">Country:</label>
+                            <div class="text-input-area">
+                                <input type="text" name="country">
+                            </div>
+                        </fieldset> 
+                    </div>
+    
+                    <div class="form-main-bottom">
+                        <fieldset class="form-field form-age">
+                            <label for="age" id="number-label">Age:</label>
+                            <div class="text-input-area">
+                                <input type="number" name="age" min="9" max="120">
+                            </div>
+                        </fieldset>
+    
+                        <fieldset class="form-field form-gender">
+                            <label for="Gender">Gender:</label>
+                            <div class="text-input-area">
+                                <input type="text" name="gender">
+                            </div>
+                        </fieldset>
+                    </div>
+    
+                </section>        
+                                  
+                <section class="row">
+                    <section class="form-section">
+                        <h2 class="title-section">Current Skills</h2>
+                        <fieldset class="form-field spec-radio">
+                            <legend>Main Skill Track</legend>
+                            <div class="radio-row">
+                                <input type="radio" name="radio-area" value="front-end">
+                                <label for="radio-area">Front End</label>
+                            </div>
+                            <div class="radio-row">
+                                <input type="radio" name="radio-area" value="back-end">
+                                <label for="radio-area">Back End</label>
+                            </div>
+                            <div class="radio-row">
+                                <input type="radio" name="radio-area" value="full-stack">
+                                <label for="radio-area">Full Stack</label>
+                            </div>
+                            <div class="radio-row">
+                                <input type="radio" name="radio-area" value="data-science">
+                                <label for="radio-area">Data<br>Science</label>
+                            </div>
+                            <div class="radio-row">
+                                <input type="radio" name="radio-area" value="devops">
+                                <label for="radio-area">DevOps</label>
+                            </div>
+                            <div class="radio-row">
+                                <input type="radio" name="radio-area" value="other">
+                                <label for="radio-area">Other</label>
+                            </div>
+                            <div class="radio-other-row form-field hidden">
+                                <label for="other-main-track">Tell Us:</label>
+                                <div class="text-input-area">
+                                    <input type="text" name="other-main-track">
+                                </div>
+                            </div>
+                        </fieldset>
+    
+    
+                        
+                        <fieldset class="form-field spec-checkbox">
+                            <legend>Programming Languages</legend>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill1" value="html">
+                                <label for="skill1">HTML</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill2" value="css">
+                                <label for="skill2">CSS</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill3" value="js">
+                                <label for="skill3">JS</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill4" value="python">
+                                <label for="skill4">Python</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill5" value="ruby">
+                                <label for="skill5">Ruby</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill6" value="ccpp">
+                                <label for="skill6">C/C++</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill7" value="csharp">
+                                <label for="skill7">C#</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill8" value="java">
+                                <label for="skill8">Java</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill9" value="php">
+                                <label for="skill9">PHP</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill10" value="swift">
+                                <label for="skill10">Swift</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill11" value="go">
+                                <label for="skill11">Go</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill12" value="scala">
+                                <label for="skill12">Scala</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill13" value="r">
+                                <label for="skill13">R</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill14" value="kotlin">
+                                <label for="skill14">Kotlin</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill15" value="lua">
+                                <label for="skill15">Lua</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="skill16" value="perl">
+                                <label for="skill16">Perl</label>
+                            </div>
+                            <div class="inner-form-field unchecked-big">
+                                <div class="check-el check-other">
+                                    <input type="checkbox" name="other-languages" value="other-lang-check">
+                                    <label for="other-languages">Other</label>
+                                </div>
+                                <div class="text-input-area hidden">
+                                    <input type="text" name="other-languages" placeholder="Tell us which">
+                                </div>
+                            </div>
+                        </fieldset>
+    
+                        <fieldset class="form-field spec-checkbox">
+                            <legend>Framework and Tools</legend>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools1" value="react">
+                                <label for="tools1">React</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools2" value="nodejs">
+                                <label for="tools2">Node.js</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools3" value="rails">
+                                <label for="tools3">Rails</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools4" value="angularjs">
+                                <label for="tools4">Angular</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools5" value="django">
+                                <label for="tools5">Django</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools6" value="numpy">
+                                <label for="tools6">Numpy</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools7" value="pandas">
+                                <label for="tools7">Pandas</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools8" value="android">
+                                <label for="tools8">Android</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools9" value="ios">
+                                <label for="tools9">iOS</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools10" value="hadoop">
+                                <label for="tools10">Hadoop</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools11" value="spring">
+                                <label for="tools11">Spring</label>
+                            </div>
+                            <div class="check-el">
+                                <input type="checkbox" name="tools12" value="laravel">
+                                <label for="tools12">Laravel</label>
+                            </div>
+                            <div class="inner-form-field unchecked-big">
+                                <div class="check-el check-other">
+                                    <input type="checkbox" name="other-tools" value="other-tools-check">
+                                    <label for="other-tools">Other</label>
+                                </div>
+                                <div class="text-input-area hidden">
+                                    <input type="text" name="other-tools" placeholder="Tell us which">
+                                </div>
+                            </div>
+                        </fieldset>
+    
+                    </section>
+    
+                    
+                    <section class="form-section">
+                        <h2 class="title-section">Experiences</h2>
+    
+                        <p class="inner-description">We want to know a little more about your past experiences and what you prioritize.</p>
+    
+                        <fieldset class="form-field select-field">
+                            <label for="time-day">Hours a day of study:</label>
+                            <div class="select-div">
+                                <select name="time-day" id="dropdown">
+                                    <option value="none">Select One</option>
+                                    <option value="1">1 or less</option>
+                                    <option value="2">2</option>
+                                    <option value="2">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7+">7 or more</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        <fieldset class="form-field select-field">
+                            <label for="time-year">Years of study:</label>
+                            <div class="select-div">
+                                <select name="time-year">
+                                    <option value="none">Select One</option>
+                                    <option value="1">1 or less</option>
+                                    <option value="2">2</option>
+                                    <option value="2">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7+">7 or more</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        <fieldset class="form-field select-field">
+                            <label for="projects">Projects developed:</label>
+                            <div class="select-div">
+                                <select name="projects">
+                                    <option value="none">Select One</option>
+                                    <option value="1">1 or less</option>
+                                    <option value="2">2</option>
+                                    <option value="2">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7+">7 or more</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        <fieldset class="form-field select-field">
+                            <label for="tech-work">Do you work in tech:</label>
+                            <div class="select-div">
+                                <select name="tech-work">
+                                    <option value="none">Select One</option>
+                                    <option value="yes">yes</option>
+                                    <option value="no">no</option>
+                                    <option value="no-plan">no, but intend to.</option>
+                                    <option value="no-study">no, but believe it is useful.</option>
+                                </select>
+                            </div>
+                        </fieldset>
+    
+                        <fieldset class="form-field select-field">
+                            <label for="courses">How many courses did you take:</label>
+                            <div class="select-div">
+                                <select name="courses">
+                                    <option value="none">Select One</option>
+                                    <option value="1">1 or less</option>
+                                    <option value="2">2</option>
+                                    <option value="2">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7+">7 or more</option>
+                                </select>
+                            </div>
+                        </fieldset>
+    
+                        <fieldset class="form-field select-field">
+                            <label for="courses">How many courses did you take:</label>
+                            <div class="select-div">
+                                <select name="courses">
+                                    <option value="none">Select One</option>
+                                    <option value="1">1 or less</option>
+                                    <option value="2">2</option>
+                                    <option value="2">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7+">7 or more</option>
+                                </select>
+                            </div>
+                        </fieldset>
+    
+                        <p class="inner-description">In the following fields tell us what were your favorite courses and best learning experiences.</p>
+    
+                        <fieldset class="form-field">
+                            <label for="fav-platform">Platform:</label>
+                            <div class="text-input-area">
+                                <input type="text" name="fav-platform">
+                            </div>
+                        </fieldset>
+                        
+                        <fieldset class="form-field">
+                            <label for="fav-course">Course:</label>
+                            <div class="text-input-area">
+                                <input type="text" name="fav-country">
+                            </div>
+                        </fieldset>
+    
+                        <fieldset class="form-field field-comments">
+                            <label class="label-comments" for="comments">Comments:</label>
+                            <div class="text-input-area">
+                                <textarea name="comments"></textarea>
+                            </div>
+                        </fieldset>
+    
+                    </section>    
+                </section>
+    
+            </form>
+        </section>
+    
+        <button class="form-section-main submit-section">
+            <h2>Submit</h2>
+        </button>
+    
+    </main>  
+    <script src="js/main.js"></script>
+</body>
+</html>
+

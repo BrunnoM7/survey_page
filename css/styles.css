@@ -1,0 +1,349 @@
+@import url(reset.css);
+
+/* General page configs */
+
+body {
+    /* 
+    font-family: 'Roboto Slab', serif;
+    */
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+
+/* page style */
+
+.main-page {
+    display: block;
+    background: rgb(110, 199, 110);
+    padding: 2rem 1.5rem;
+}
+
+.form-explanation {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title {
+    margin-bottom: 2.5rem;
+}
+
+.description {
+    font-size: 1.5em;
+
+}
+
+.row {
+    max-width: 1228px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.survey-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title-section {
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    background-color: rgb(78, 95, 78);
+    color: rgb(203, 228, 203);
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+    align-self: flex-start;
+}
+
+.form-section-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgb(207, 238, 207);
+    border-radius: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    min-width: 340px;
+    max-width: 1228px;
+    width: 100%;
+}
+
+.form-field {
+    margin: 1em auto;
+    display: flex;
+    align-content: center;
+    width: 80%;
+}
+
+.form-field label {    
+    display: block;
+    padding: 0 0.5em 0 0;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin : auto 0;
+    min-width: 5.5rem;
+    text-align: center;
+}
+
+.text-input-area {
+    width: 100%;
+    transition: all .5s cubic-bezier(.36,-.64,.34,1.76);
+}
+
+.form-field input {
+    height: 3rem;
+    border: 0.05em solid rgb(149, 149, 149);
+    width: 87.5%;
+    padding: 0 0.5em;
+    font-size: 1.5em;
+    border-radius: 2px;
+ 
+}
+
+.form-field input:focus {
+    background-color: #fff;
+    border: 0.05em solid rgb(154, 202, 154);
+}
+
+.form-city, .form-age { 
+    margin-bottom: 2em;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(207, 238, 207);
+    border-radius: 1.5rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    min-width: 340px;
+    max-width: 1228px;
+    width: 100%;
+}
+
+.form-field legend {
+    font-size: 2em;
+    padding: 0 0 1rem 0;
+    margin-bottom: 1rem;
+    color: rgb(78, 95, 78);
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+    text-align: center;
+}
+
+.spec-radio {
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.spec-checkbox .check-el,
+.spec-radio>.radio-row {
+    border: 0.025em solid rgb(149, 149, 149);
+    border-top: 0.1em solid rgb(149, 149, 149);
+    border-bottom: 0.1em solid rgb(149, 149, 149);
+    display: flex;
+    width: 25%;
+    align-content: center;
+    justify-content: center;
+    height: 3.5em;
+    cursor: pointer;
+    margin: 0 0.2em 1em 0.2em;
+    padding: 0 0.25em;
+    border-radius: 20px;
+}
+
+.spec-checkbox .check-el {
+    width: 22%;
+    padding: 0;
+}
+
+.check-el>label,
+.radio-row>label {
+    display: block;
+    cursor: pointer;
+    padding: 0;
+}
+
+
+.radio-row>input[type="radio"],
+.check-el>input[type="checkbox"] {
+    display: none;
+}
+
+.checked {
+    background-color: rgb(149, 149, 149);
+    color: rgb(207, 238, 207);
+}
+
+.spec-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-form-field {
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+
+.inner-form-field input {
+    margin-left: 0.8em;
+    max-width: 80%;
+}
+
+.unchecked-big {
+    margin: inherit 25%;
+    width: 50%;
+}
+
+.unchecked-big .check-el {
+    width: 100%;
+}
+
+.inner-description {
+    font-size: 1.5em;
+    font-weight: 200;
+    width: 80%;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.select-field {
+    display: flex;
+    align-content: center;
+}
+
+.select-div {
+    width: 50%;
+}
+
+.select-field label {
+    width: 50%;
+}
+
+select {
+    background-color: #fff;
+    width: 80%;
+    height: 3em;
+    border: 0.025em solid rgb(149, 149, 149);
+    font-size: 1.25em;
+    padding-left: 0.5em;
+}
+
+.field-comments {
+    flex-direction: column;
+}
+
+.form-field .label-comments {
+    width: 100%;
+}
+
+.form-field textarea {
+    border: 0.05em solid rgb(149, 149, 149);
+    width: 100%;
+    height: 3em;
+    padding: 0.5em 0.5em;
+    font-size: 1.5em;
+    border-radius: 2px;
+    margin-top: 0.5em;
+ 
+}
+
+.submit-section {
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    background-color: rgb(78, 95, 78);
+    color: rgb(203, 228, 203);
+    width: 100%;
+    align-self: flex-start;
+    border: 0;
+}
+
+
+@media(min-width: 980px) { 
+
+    .form-section {
+        width: 49%;
+    }
+    
+    .form-location,.form-main-bottom {
+        margin: 0 auto;
+        display: flex;
+        align-content: center;
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .form-field label {    
+        font-size: 1.4em;
+    }
+
+    .form-field input {
+        width: 100%;
+
+    }
+
+    .form-city {
+        width: 60%;
+        
+    }
+
+    .form-country {
+        width: 35%;
+        margin-left: 5%;
+    }
+
+    .form-age {
+        width: 25%
+    
+    }
+
+    .form-gender {
+        width: 70%;
+        margin-left: 5%;
+    }
+
+    .form-city, .form-age { 
+        margin-bottom: 0;
+    }
+
+    .radio-row>label {
+        padding: 0;
+    }
+
+    .spec-checkbox .check-el {
+        min-width: 23%;
+    }
+
+}
+
+
+.hidden {
+    display: none;
+}
